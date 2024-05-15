@@ -1,8 +1,8 @@
 version: '3.3'
 services:
     maccms:
-        image: esme518/docker-maccms10
-        container_name: maccms
+        image: durianice/docker-maccms10
+        container_name: maccms10
         restart: always
         volumes:
             - ./data:/var/www/html
